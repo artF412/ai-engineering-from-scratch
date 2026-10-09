@@ -40,6 +40,7 @@
 |------|--------|------|------|
 | 2026-10-08 | 00/01 dev-environment | 4/5 | uv + Python 3.12 venv + numpy OK, verify.py passed (Windows: needed ExecutionPolicy fix). Skipped Q5 (torch.cuda.is_available) |
 | 2026-10-08 | 00/02 git-and-collaboration | 3/3 | Did add/commit/push, branch+fast-forward merge, .gitignore check on own fork (origin=artF412), branch my-progress. Warm-up on 00/01 answered correctly |
+| 2026-10-09 | 00/06 python-environments | 3/3 | Proved two venvs isolate numpy 1.26.4 vs 2.1.0 (ran python.exe directly, no activate). Knew where.exe replaces which on Windows. Needed a hint on why torch/llm are optional dependency groups. Warm-up on 00/02 both correct |
 
 ## Review queue
 - Deferred Phase 0 lessons (do when needed): 05 jupyter, 08 editor, 12 debugging, 04 apis-and-keys (by Phase 11), 03 gpu-and-cloud (by Phase 3-4), 09 data-management, 07 docker + 11 linux (by Phase 17)
